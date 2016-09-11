@@ -52,7 +52,10 @@ return [
             'showScriptName' => false,
             'rules' => [
                 [
-                    'class' => 'yii\rest\UrlRule', 'controller' => 'v1/users','tokens' => [
+                    'class' => 'yii\rest\UrlRule', 'controller' => 'v1/user','tokens' => [
+                        '{id}' => '<id:\\w+>'
+                    ],
+                    'class' => 'yii\rest\UrlRule', 'controller' => 'v1/userinfo','tokens' => [
                         '{id}' => '<id:\\w+>'
                     ],
 
