@@ -2,5 +2,5 @@
 return [
     'adminEmail' => 'narin@example.com',
     'EditInWeb' => '',
-    'EditVer2' => 'A',
+    'EditVer2' => 'BBB',
 ];
